@@ -1,0 +1,534 @@
+#header .container-fluid {
+  padding: 0; }
+#header .image-container {
+  position: relative;
+  background-image: url("../images/mountain3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50rem; }
+  #header .image-container .opacity {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(250, 250, 250, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0; }
+    #header .image-container .opacity .watch-button {
+      text-decoration: none;
+      color: black;
+      display: inline-block;
+      width: 150px;
+      height: 40px;
+      line-height: 35px;
+      border: 1px solid #ccc;
+      border-radius: 50px;
+      transition: all .3s linear;
+      margin: 50px 0px;
+      font-size: .8rem;
+      font-weight: 500; }
+      #header .image-container .opacity .watch-button:hover {
+        color: white;
+        background: #277df4;
+        border: 1px solid #277df4; }
+      #header .image-container .opacity .watch-button i {
+        margin-right: 5px; }
+    #header .image-container .opacity p {
+      opacity: .7; }
+    #header .image-container .opacity h1 {
+      font-family: "Varela Round", sans-serif;
+      font-weight: 600;
+      font-size: 2.8rem;
+      margin: 7rem 0 1rem 0; }
+    #header .image-container .opacity .iphone-6 {
+      display: block;
+      width: 300px;
+      margin: 0 auto;
+      margin-top: 35px; }
+#header .bg-light {
+  background-color: transparent !important; }
+#header .navbar .navbar-nav .nav-link {
+  border-radius: 50px;
+  padding: .3rem 1rem;
+  font-weight: 500;
+  color: black;
+  transition: all .3s linear;
+  margin: 0px 5px; }
+  #header .navbar .navbar-nav .nav-link:hover {
+    background: #277df4;
+    color: white; }
+#header .navbar .navbar-nav .active-button {
+  background-color: #277df4;
+  color: white; }
+  #header .navbar .navbar-nav .active-button i {
+    margin-right: 5px; }
+
+#part-2 {
+  position: relative;
+  z-index: 5;
+  background-color: #ffffff;
+  padding: 40px 0px; }
+  #part-2 .item-contain .item {
+    padding: 30px;
+    transition: all .3s linear;
+    height: 350px; }
+    #part-2 .item-contain .item:hover {
+      box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25); }
+    #part-2 .item-contain .item .material-icons {
+      font-size: 40px;
+      color: #277df4; }
+    #part-2 .item-contain .item h4 {
+      margin: 25px 0px;
+      font-family: "Varela Round", sans-serif;
+      opacity: .7; }
+    #part-2 .item-contain .item p {
+      font-family: "Varela Round", sans-serif;
+      font-size: 13.5px;
+      opacity: .7; }
+  #part-2 .item-contain div:nth-child(3) {
+    width: 90%;
+    border: .5px solid #ccc;
+    margin: 0px auto;
+    margin-top: 40px; }
+
+#part-3 {
+  padding-top: 50px; }
+  #part-3 .img-contain {
+    overflow: hidden; }
+    #part-3 .img-contain:hover img {
+      transform: rotate(2deg) scale(1.1); }
+    #part-3 .img-contain img {
+      width: 100%;
+      transition: all .3s linear; }
+  #part-3 .item {
+    padding: 20px;
+    height: 400px;
+    width: 100%; }
+    #part-3 .item h2 {
+      font-family: "Varela Round", sans-serif;
+      margin-bottom: 30px; }
+    #part-3 .item p {
+      opacity: .7;
+      font-size: 14.5px;
+      font-family: "Varela Round", sans-serif; }
+    #part-3 .item div:nth-child(1) {
+      transform: translateY(-350px);
+      opacity: 0;
+      transition: all .3s linear;
+      transition-delay: .4s; }
+    #part-3 .item div:nth-child(2) {
+      transform: translateY(-350px);
+      opacity: 0;
+      transition: all .2s linear;
+      transition-delay: .3s; }
+    #part-3 .item div:nth-child(3) {
+      transform: translateY(-350px);
+      opacity: 0;
+      transition: all .3s linear; }
+      #part-3 .item div:nth-child(3) a {
+        font-size: 13px;
+        text-decoration: none;
+        margin-top: 30px;
+        font-family: "Varela Round", sans-serif; }
+        #part-3 .item div:nth-child(3) a i {
+          font-size: 11px;
+          margin-left: 15px; }
+      #part-3 .item div:nth-child(3) a:nth-child(1) {
+        display: inline-block;
+        width: 170px;
+        height: 40px;
+        background: #277df4;
+        text-align: center;
+        line-height: 40px;
+        color: white;
+        border-radius: 50px;
+        margin-right: 30px;
+        transition: all .3s linear;
+        border: 1px solid transparent; }
+        #part-3 .item div:nth-child(3) a:nth-child(1):hover {
+          background: white;
+          color: black;
+          border: 1px solid #ccc; }
+      #part-3 .item div:nth-child(3) a:nth-child(2) {
+        display: inline-block;
+        height: 40px;
+        width: 110px;
+        text-align: center;
+        line-height: 40px;
+        color: black;
+        border: 1px solid #ccc;
+        border-radius: 50px;
+        transition: all .3s linear; }
+        #part-3 .item div:nth-child(3) a:nth-child(2):hover {
+          background: #277df4;
+          color: white;
+          border: 1px solid #277df4; }
+
+#part-4 .map-container .item {
+  padding: 20px;
+  height: 450px; }
+  #part-4 .map-container .item h2 {
+    font-family: "Varela Round", sans-serif;
+    margin: 30px 0px; }
+  #part-4 .map-container .item p {
+    font-family: "Varela Round", sans-serif;
+    font-size: 14px;
+    opacity: .7; }
+  #part-4 .map-container .item span {
+    display: block;
+    font-family: "Varela Round", sans-serif;
+    font-size: 11px;
+    font-weight: 800;
+    margin-top: 50px; }
+  #part-4 .map-container .item img {
+    width: 150px;
+    margin: 20px 20px 0px 0px; }
+  #part-4 .map-container .item div:nth-child(1) {
+    transform: translateX(-350px);
+    transition: all .3s linear;
+    transition-delay: .4s;
+    opacity: 0; }
+  #part-4 .map-container .item div:nth-child(2) {
+    transform: translateX(-350px);
+    transition: all .3s linear;
+    transition-delay: .2s;
+    opacity: 0; }
+  #part-4 .map-container .item div:nth-child(3) {
+    transform: translateX(-350px);
+    transition: all .3s linear;
+    opacity: 0; }
+#part-4 .map-container #vmap {
+  margin-top: 30px;
+  width: 100%;
+  height: 450px; }
+  #part-4 .map-container #vmap .jqvmap-zoomout {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #277df4;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    line-height: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 5px; }
+  #part-4 .map-container #vmap .jqvmap-zoomin {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #277df4;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    line-height: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 5px; }
+  #part-4 .map-container #vmap .region-pointer {
+    font-family: "Varela Round", sans-serif; }
+
+#part-5 {
+  padding: 100px 0px;
+  width: 100%;
+  background: #eee; }
+  #part-5 .text-contain h2 {
+    font-family: "Varela Round", sans-serif; }
+  #part-5 .text-contain div {
+    width: 40px;
+    border: 1px solid #277df4;
+    margin: 30px auto; }
+  #part-5 .text-contain p {
+    font-size: 11px;
+    opacity: .7;
+    font-weight: 600; }
+  #part-5 .owl-carousel .image-content {
+    width: 300px;
+    height: 400px;
+    margin: 10px; }
+    #part-5 .owl-carousel .image-content img {
+      width: 100%;
+      height: 100%; }
+  #part-5 .form-content {
+    margin-top: 100px; }
+    #part-5 .form-content small {
+      font-size: 11px;
+      opacity: .7; }
+    #part-5 .form-content h2 {
+      font-family: "Varela Round", sans-serif;
+      margin-top: 30px; }
+    #part-5 .form-content div {
+      border: 1px solid #ccc;
+      width: 300px;
+      margin: 30px auto;
+      border-radius: 50px;
+      padding: 8px 0px 9px 0px;
+      position: relative; }
+      @media only screen and (max-width: 700px) {
+        #part-5 .form-content div {
+          width: 250px; } }
+      #part-5 .form-content div a {
+        font-size: 14px;
+        color: white;
+        padding: 8px 20px;
+        background: #6fc854;
+        border-radius: 50px;
+        text-decoration: none;
+        margin-left: 166px; }
+        @media only screen and (max-width: 700px) {
+          #part-5 .form-content div a {
+            padding: 8px 10px;
+            margin-left: 137px; } }
+      #part-5 .form-content div input {
+        outline: none;
+        background: transparent;
+        border: 0px;
+        margin: 0px;
+        position: absolute;
+        left: 20px;
+        top: 7px;
+        font-size: 15px;
+        width: 100px; }
+    #part-5 .form-content img {
+      width: 150px;
+      display: block;
+      margin: 20px auto; }
+
+@keyframes anima-op {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+#part-6 {
+  padding: 100px 0px;
+  position: relative; }
+  #part-6 .workers-contain {
+    display: none; }
+    #part-6 .workers-contain img {
+      width: 100px; }
+    #part-6 .workers-contain h4 {
+      font-family: "Varela Round", sans-serif;
+      margin-top: 50px; }
+    #part-6 .workers-contain p {
+      opacity: .7;
+      margin-top: 30px; }
+    #part-6 .workers-contain div {
+      margin-bottom: 40px; }
+      #part-6 .workers-contain div i {
+        font-size: 20px;
+        color: #f1bb3a; }
+    #part-6 .workers-contain small {
+      font-weight: 800;
+      font-size: 11px; }
+  #part-6 .nav-contain .prev-slide {
+    position: absolute;
+    top: 100px;
+    left: 20%; }
+    #part-6 .nav-contain .prev-slide i {
+      font-size: 50px;
+      color: black;
+      opacity: .10;
+      cursor: pointer; }
+  #part-6 .nav-contain .next-slide {
+    position: absolute;
+    top: 100px;
+    right: 20%; }
+    #part-6 .nav-contain .next-slide i {
+      font-size: 50px;
+      color: black;
+      opacity: .10;
+      cursor: pointer; }
+  #part-6 .active-slide {
+    display: block;
+    animation: anima-op 1s forwards; }
+
+#part-7 {
+  padding: 100px 0px;
+  background-color: #eee; }
+  #part-7 .reset-padding {
+    padding-right: 0px;
+    padding-left: 0px; }
+  #part-7 h2 {
+    font-family: "Varela Round", sans-serif;
+    margin-bottom: 50px; }
+  #part-7 small {
+    font-size: 11px;
+    font-weight: 700; }
+  #part-7 .buttons {
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    margin: 10px 0px 30px 0px; }
+    #part-7 .buttons a {
+      display: inline-block;
+      width: 100px;
+      height: 35px;
+      text-align: center;
+      line-height: 30px;
+      background: white;
+      color: black;
+      text-decoration: none;
+      border-radius: 50px;
+      font-size: 14px;
+      font-weight: 500;
+      margin-right: 50px;
+      position: relative;
+      z-index: 5;
+      cursor: pointer;
+      transition: all .4s linear; }
+    #part-7 .buttons span {
+      font-weight: 500;
+      opacity: .7; }
+  #part-7 p {
+    opacity: .7; }
+  #part-7 span {
+    font-size: 12px;
+    opacity: .8; }
+  #part-7 .item-contain {
+    padding: 35px;
+    background-color: #ddd;
+    margin-top: 30px;
+    transition: all .3s linear;
+    position: relative;
+    border-radius: 10px; }
+    #part-7 .item-contain h4 {
+      font-family: "Varela Round", sans-serif; }
+    #part-7 .item-contain a {
+      display: inline-block;
+      width: 70px;
+      height: 25px;
+      line-height: 20px;
+      font-weight: 500;
+      font-size: 12px;
+      border: 1px solid #ccc;
+      border-radius: 50px;
+      color: black;
+      text-decoration: none;
+      margin: 10px 0px 20px 0px; }
+    #part-7 .item-contain h5 {
+      font-family: "Varela Round", sans-serif;
+      opacity: .8;
+      margin: 30px;
+      height: 50px; }
+    #part-7 .item-contain .links-contain {
+      min-height: 100px; }
+      #part-7 .item-contain .links-contain p {
+        font-size: 14px;
+        color: black;
+        font-weight: 500; }
+        #part-7 .item-contain .links-contain p i {
+          color: #6fc854; }
+    #part-7 .item-contain a:nth-of-type(2) {
+      width: 160px;
+      height: 35px;
+      background-color: #277df4;
+      line-height: 30px;
+      color: white;
+      margin-top: 50px; }
+    #part-7 .item-contain:hover {
+      transform: translate(20px, -20px);
+      background-color: white;
+      z-index: 5;
+      box-shadow: -10px -10px 30px rgba(0, 0, 0, 0.25); }
+  #part-7 #single-a {
+    border: 1px solid #277df4;
+    background-color: transparent;
+    color: #277df4; }
+
+#part-8 {
+  padding: 50px 0px; }
+  #part-8 h3 {
+    font-family: "Varela Round", sans-serif;
+    margin-bottom: 30px;
+    text-align: center; }
+  #part-8 .subscribe {
+    width: 80%;
+    border: 1px solid #ccc;
+    display: inline-block;
+    height: 40px;
+    padding: 3px;
+    border-radius: 50px;
+    margin-bottom: 30px; }
+    #part-8 .subscribe button {
+      border: none;
+      font-size: 14px;
+      width: 140px;
+      height: 100%;
+      float: right;
+      font-weight: 600;
+      color: white;
+      background-color: #6fc854;
+      border-radius: 50px;
+      line-height: 20px; }
+      @media only screen and (max-width: 430px) {
+        #part-8 .subscribe button {
+          width: 94px; } }
+      #part-8 .subscribe button i {
+        font-size: 12px;
+        margin-left: 5px; }
+    #part-8 .subscribe input {
+      float: left;
+      height: 100%;
+      border-radius: 50px;
+      border: none;
+      outline: none;
+      padding: 0px 0px 5px 10px;
+      font-size: 13px; }
+      @media only screen and (max-width: 430px) {
+        #part-8 .subscribe input {
+          width: 90px; } }
+  #part-8 small {
+    font-weight: bold;
+    font-size: 11px;
+    color: #ddd;
+    display: inline-block;
+    margin-bottom: 30px; }
+
+#part-9 {
+  padding: 49px 9px; }
+  #part-9 h6 {
+    font-size: 16px;
+    margin-bottom: 30px; }
+    #part-9 h6 span {
+      font-weight: bold; }
+  #part-9 div small {
+    display: inline-block;
+    width: 250px;
+    color: #ccc;
+    margin-bottom: 20px; }
+  #part-9 img {
+    display: block;
+    width: 100px;
+    margin-bottom: 20px; }
+  #part-9 i {
+    margin: 0px 15px 30px 0px;
+    font-size: 14px;
+    color: #ddd;
+    cursor: pointer;
+    transition: all .3s linear; }
+    #part-9 i:hover {
+      color: #6fc854; }
+  #part-9 p {
+    font-size: 11px; }
+  #part-9 a {
+    font-size: 14px;
+    color: #ddd;
+    text-decoration: none;
+    transition: all .3s linear;
+    display: block;
+    margin-bottom: 10px; }
+    #part-9 a:hover {
+      color: #6fc854; }
+  #part-9 .footer a {
+    display: inline; }
+    #part-9 .footer a:hover {
+      color: blue; }
+  #part-9 .footer small {
+    display: inline; }
+  #part-9 .footer span {
+    font-size: 10px;
+    font-weight: bold; }
+  #part-9 .footer span:nth-of-type(2) {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 20px;
+    margin-left: 5px; }
